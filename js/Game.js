@@ -15,4 +15,12 @@ class Game {
 										 new Player('Player 2', 2, '#e59a13')];
 		return players;
 	}
+	
+	/** 
+ * N/A
+ */
+	startGame() {
+		this.style.display = 'none';
+		document.getElementById('play-area').style.opacity = '1';	
+	}
 }
