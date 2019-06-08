@@ -17,10 +17,9 @@ class Game {
 	}
 	
 	/** 
- * N/A
+ * Gets game ready for play
  */
 	startGame() {
-		this.style.display = 'none';
-		document.getElementById('play-area').style.opacity = '1';	
+		
 	}
 }

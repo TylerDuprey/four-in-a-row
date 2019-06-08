@@ -1,9 +1,12 @@
 // JavaScript Document
 const game = new Game();
-const beginButton = document.getElementById('begin-game');
 /** 
  * Listens for click on `#begin-game` and calls startGame() on game object
  */
-beginButton.addEventListener('click', (e) => {
+document.getElementById('begin-game').addEventListener('click', () => {
 	game.startGame();
+	
+	/* Hide the game button and show the game board */
+	this.style.display = 'none';
+	document.getElementById('play-area').style.opacity = '1';	
 });
