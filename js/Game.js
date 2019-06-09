@@ -22,4 +22,8 @@ class Game {
 	startGame() {
 		
 	}
+	
+	get activePlayer() {
+		
+	}
 }
